@@ -1,0 +1,247 @@
+/* .body{
+    background-image: url("https://wallpapercave.com/wp/wp2979775.jpg");
+}
+.container{
+    position: fixed;
+    background-image: url('https://wallpapercave.com/wp/wp2979775.jpg');
+    height: 90%;
+    width: 100%;
+    background-size: cover;
+    transform: translate(-770px,-292px);
+    align-content: center;
+  }
+  .box{
+    height: 370px;
+    width: 700px;
+    transform: translate(300px,-100px);
+    border: 2px dashed;
+    background-color:rgb(250,256,240);
+    
+  }
+  .input{
+    width: 500px;
+    height: 30px;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 10px;
+    border: 2px solid black;
+  }
+  #submit{
+    transform: translate(-270px,50px);
+    border: none;
+    border: 2px solid;
+  }
+  #submit:hover{
+    background-color: rgb(150,150,150);
+  }
+  #reason{
+    width: 500px;
+    height: 30px;
+    transform: translate(40px,0px);
+  }
+  .input::placeholder{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+  .reason{
+    
+    height: 30px;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid black;
+  }
+  .reason::placeholder{
+    font-size: 30px;
+  }
+  .value{
+    width: 1000px;
+    height: 30px;
+  }
+  select,option{
+    width: 500px;
+    height: 30px;
+  } */
+
+
+  .container{
+    position: fixed;
+    background-image: url('https://wallpapercave.com/wp/wp2979775.jpg');
+    height: 90%;
+    width: 100%;
+    max-height: 90%;
+    cursor: pointer;
+    background-size: cover;
+    transform: translate(-770px,-295px);
+    align-content: center;
+    overflow: auto;
+  }
+  .box{
+    height: 370px;
+    width: 700px;
+    
+    transform: translate(5px,-331px);
+    border: 2px dashed;
+    background-color:rgb(250,256,240);
+    
+  }
+  .input{
+    width: 500px;
+    height: 30px;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 10px;
+    border: 2px solid black;
+  }
+  #submit{
+    transform: translate(-270px,50px);
+    border: none;
+    border: 2px solid;
+  }
+  #submit:hover{
+    background-color: rgb(150,150,150);
+  }
+  #reason{
+    width: 500px;
+    height: 30px;
+    transform: translate(40px,0px);
+  }
+  .input::placeholder{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+  .reason{
+    
+    height: 30px;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid black;
+  }
+  .reason::placeholder{
+    font-size: 30px;
+  }
+  .value{
+    width: 1000px;
+    height: 30px;
+  }
+  select,option{
+    width: 500px;
+    height: 30px;
+  }
+  #image{
+    height: 470px;
+    width: 1000px;
+  }
+  .box{
+    height: 470px;
+    width: 1000px;
+    position: relative;
+    transform: translate(3px,5px);
+    border: 2px dashed;
+    background-color:rgb(250,256,240);
+    
+  }
+  .container2{
+    width: 100%;
+    height: 100rem;
+    overflow: hidden;
+    display: flex;
+  }
+  ::-webkit-scrollbar{
+   color: red;
+   display: none;
+  }
+  .box2{
+    width: 400px;
+    height: 100px;
+    transform: translate(60px,40px);
+    font-size: 30px;
+  }
+  .but{
+    width: 400px;
+    border: 3px dashed yellow;
+    animation: animated;
+    border: none;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes animated{
+    0%{
+      background-color: red;
+    }
+    25%{
+      background-color: aqua;
+    }
+    50%{
+      background-color: rgb(0, 255, 38);
+    }
+    75%{
+      background-color: rgb(55, 0, 255);
+    }
+    100%{
+      background-color: red;
+    }
+  }
+  .but:active{
+   color: red;
+  }
+  #arrow{
+    animation: create;
+    position: relative;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+  }
+  @media screen and (max-width:600px) {
+    
+  }
+  @keyframes create{
+    0%{
+      transform: translate(0px,-40px);
+    }
+    50%{
+      transform: translate(0px,10px);
+    }
+    100%{
+      transform: translate(0px,-40px);
+    }
+  }
+  .box3{
+    border: 3px solid rgb(5, 21, 53) ;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    transform: translate(-57px);
+    margin: 3px;
+    background-color: yellow;
+    width: 480px;
+    height: 270px;
+  }
+  #msg{
+    transform: translate(-0px,-57px);
+  }
+  #line{
+    transform: translate(0px,-80px);
+    color: black;
+    font-weight: bolder;
+  }
+  #own{
+    transform: translate(-0px,-90px);
+  }
+  .container3{
+    transform: translate(5px,-1110px);
+  }
+  #punch{
+    color: rgb(12, 12, 12);
+  }
+  .box4{
+    border: 2px solid;
+    background-color: yellow;
+  }

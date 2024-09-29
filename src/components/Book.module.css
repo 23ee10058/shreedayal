@@ -1,0 +1,102 @@
+.container{
+    height: 100%;
+    position: fixed;
+    background-image: url('https://wallpapercave.com/wp/wp2979775.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100%;
+    transform: translate(-769px,-300px);
+    border: 1px solid ;
+}
+.box{
+    height: 450px;
+    width: 470px;
+    border: 2px solid rgba(9, 9, 9,0.3);
+    align-content: center;
+    transform: translate(740px,50px);
+    display: flex;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1), 0 8px 16px rgba(0, 0, 0, .1);
+    flex-wrap: wrap;
+    background-color: white;
+}
+.name{
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    color:  rgba(0, 0, 0, 1);
+    border: 2px solid rgba(9, 9, 9,0.3);
+    
+    border-radius: 10px;
+    margin: 5px;
+    transform: translate(20px,-40px);
+}
+.name::placeholder{
+    font-size: 20px;
+    color:  rgba(0, 0, 0, 1);
+}
+.name:hover{
+    border: 2px solid blue;
+}
+.dis{
+    transform: translate(25px,-35px);
+    border: 2px solid rgba(9, 9, 9,0.3);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 423px;
+    height: 40px;
+    font-size: 20px;
+    font-family:  sans-serif;
+    border-radius: 10px;
+    color: rgba(9, 9, 9,1);
+}
+.dis:hover{
+    border: 2px solid blue;
+}
+.gender{
+    border: 2px solid rgba(9, 9, 9,0.3);
+    transform: translate(24px,-36px);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 423px;
+    height: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    color: rgba(9, 9, 9,1);
+}
+.gender:hover{
+    border: 2px solid blue;
+}
+.book{
+    transform: translate(150px);
+    font-size: 20px;
+    border: none;
+    background-color: #0866ff;
+    color: white;
+}
+.book:hover{
+    background-color:#3965ab ;
+}
+.box2{
+   width: 600px;
+   border: 2px solid yellow;
+   height: 370px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 1), 0 8px 16px rgba(0, 0, 0, .1);
+   border-radius: 15px;
+   transform: translate(100px,-390px);
+}
+#logo{
+    width: 600px;
+   height: 370px;
+   border-radius: 15px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 1), 0 8px 16px rgba(0, 0, 0, .1);
+   z-index: 5;
+}
+#response{
+    color: red;
+    transform: translate(-55px,50px);
+}
